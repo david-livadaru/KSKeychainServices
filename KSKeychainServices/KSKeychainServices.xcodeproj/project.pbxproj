@@ -58,7 +58,6 @@
 		6368EAE41A38F04300AD6C80 = {
 			isa = PBXGroup;
 			children = (
-				6368EB0C1A38F21700AD6C80 /* Security.framework */,
 				6368EAF01A38F04300AD6C80 /* KSKeychainServices */,
 				6368EAFD1A38F04300AD6C80 /* KSKeychainServicesTests */,
 				6368EAEF1A38F04300AD6C80 /* Products */,
@@ -87,6 +86,7 @@
 		6368EAF11A38F04300AD6C80 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6368EB0C1A38F21700AD6C80 /* Security.framework */,
 				6368EAF21A38F04300AD6C80 /* Info.plist */,
 			);
 			name = "Supporting Files";
