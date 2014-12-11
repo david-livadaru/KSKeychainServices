@@ -195,6 +195,7 @@
 		6368EAE51A38F04300AD6C80 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = KS;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "David Live Org";
 				TargetAttributes = {
