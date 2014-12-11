@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6349C3591A3A38F700AB3770 /* KSKeychainSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 6349C3571A3A38F700AB3770 /* KSKeychainSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6349C35A1A3A38F700AB3770 /* KSKeychainSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349C3581A3A38F700AB3770 /* KSKeychainSession.m */; };
+		6349C35D1A3A394000AB3770 /* KSKeychainRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6349C35B1A3A394000AB3770 /* KSKeychainRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6349C35E1A3A394000AB3770 /* KSKeychainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349C35C1A3A394000AB3770 /* KSKeychainRequest.m */; };
+		6349C3611A3A396A00AB3770 /* KSKeychainItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6349C35F1A3A396A00AB3770 /* KSKeychainItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6349C3621A3A396A00AB3770 /* KSKeychainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349C3601A3A396A00AB3770 /* KSKeychainItem.m */; };
+		6349C3651A3A398300AB3770 /* KSKeychainDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6349C3631A3A398300AB3770 /* KSKeychainDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6349C3681A3A3B1E00AB3770 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6349C3671A3A3B1E00AB3770 /* Foundation.framework */; };
 		6368EAF41A38F04300AD6C80 /* KSKeychainServices.h in Headers */ = {isa = PBXBuildFile; fileRef = 6368EAF31A38F04300AD6C80 /* KSKeychainServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6368EAFA1A38F04300AD6C80 /* KSKeychainServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6368EAEE1A38F04300AD6C80 /* KSKeychainServices.framework */; };
 		6368EB011A38F04300AD6C80 /* KSKeychainServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6368EB001A38F04300AD6C80 /* KSKeychainServicesTests.m */; };
-		6368EB0B1A38F1F700AD6C80 /* KSKeychainServiceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6368EB0A1A38F1F700AD6C80 /* KSKeychainServiceTypes.h */; };
+		6368EB0B1A38F1F700AD6C80 /* KSKeychainServiceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 6368EB0A1A38F1F700AD6C80 /* KSKeychainServiceTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6368EB0D1A38F21700AD6C80 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6368EB0C1A38F21700AD6C80 /* Security.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6349C3571A3A38F700AB3770 /* KSKeychainSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSKeychainSession.h; sourceTree = "<group>"; };
+		6349C3581A3A38F700AB3770 /* KSKeychainSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSKeychainSession.m; sourceTree = "<group>"; };
+		6349C35B1A3A394000AB3770 /* KSKeychainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSKeychainRequest.h; sourceTree = "<group>"; };
+		6349C35C1A3A394000AB3770 /* KSKeychainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSKeychainRequest.m; sourceTree = "<group>"; };
+		6349C35F1A3A396A00AB3770 /* KSKeychainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSKeychainItem.h; sourceTree = "<group>"; };
+		6349C3601A3A396A00AB3770 /* KSKeychainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSKeychainItem.m; sourceTree = "<group>"; };
+		6349C3631A3A398300AB3770 /* KSKeychainDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSKeychainDefines.h; sourceTree = "<group>"; };
+		6349C3671A3A3B1E00AB3770 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6368EAEE1A38F04300AD6C80 /* KSKeychainServices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KSKeychainServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6368EAF21A38F04300AD6C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6368EAF31A38F04300AD6C80 /* KSKeychainServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSKeychainServices.h; sourceTree = "<group>"; };
@@ -40,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6349C3681A3A3B1E00AB3770 /* Foundation.framework in Frameworks */,
 				6368EB0D1A38F21700AD6C80 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +95,13 @@
 			children = (
 				6368EAF31A38F04300AD6C80 /* KSKeychainServices.h */,
 				6368EB0A1A38F1F700AD6C80 /* KSKeychainServiceTypes.h */,
+				6349C3631A3A398300AB3770 /* KSKeychainDefines.h */,
+				6349C3571A3A38F700AB3770 /* KSKeychainSession.h */,
+				6349C3581A3A38F700AB3770 /* KSKeychainSession.m */,
+				6349C35B1A3A394000AB3770 /* KSKeychainRequest.h */,
+				6349C35C1A3A394000AB3770 /* KSKeychainRequest.m */,
+				6349C35F1A3A396A00AB3770 /* KSKeychainItem.h */,
+				6349C3601A3A396A00AB3770 /* KSKeychainItem.m */,
 				6368EAF11A38F04300AD6C80 /* Supporting Files */,
 			);
 			path = KSKeychainServices;
@@ -86,6 +110,7 @@
 		6368EAF11A38F04300AD6C80 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6349C3671A3A3B1E00AB3770 /* Foundation.framework */,
 				6368EB0C1A38F21700AD6C80 /* Security.framework */,
 				6368EAF21A38F04300AD6C80 /* Info.plist */,
 			);
@@ -116,8 +141,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6349C3611A3A396A00AB3770 /* KSKeychainItem.h in Headers */,
+				6349C35D1A3A394000AB3770 /* KSKeychainRequest.h in Headers */,
 				6368EB0B1A38F1F700AD6C80 /* KSKeychainServiceTypes.h in Headers */,
 				6368EAF41A38F04300AD6C80 /* KSKeychainServices.h in Headers */,
+				6349C3591A3A38F700AB3770 /* KSKeychainSession.h in Headers */,
+				6349C3651A3A398300AB3770 /* KSKeychainDefines.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6349C35A1A3A38F700AB3770 /* KSKeychainSession.m in Sources */,
+				6349C3621A3A396A00AB3770 /* KSKeychainItem.m in Sources */,
+				6349C35E1A3A394000AB3770 /* KSKeychainRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,6 +434,7 @@
 				6368EB061A38F04300AD6C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6368EB071A38F04300AD6C80 /* Build configuration list for PBXNativeTarget "KSKeychainServicesTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +443,7 @@
 				6368EB091A38F04300AD6C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
